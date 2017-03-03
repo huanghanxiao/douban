@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1920px;
+    height: 4768px;
+    background-color: #fff;
+}
+.w{
+    width: 1426px;
+}
+.topbar{
+    background-color: #545652;
+    width: 1920px;
+    height: 42px;
+}
+.topbar .t-b-l,.topbar .t-b-r {
+    height: 42px;
+    display: inline-block;
+}
+.topbar .t-b-l ul{
+    height: 42px;
+    margin-left: 18px;
+}
+.topbar .t-b-l li{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-right: 40px;
+}
+.topbar .t-b-l a,.topbar .t-b-r a {
+    font-size: 16px;
+    color: #D5D5D5;
+}
+.topbar .t-b-l a:hover{
+    color: #fff;
+}
+.topbar .t-b-r a:hover{
+    color: #fff;
+}
+
+.topbar .t-b-r ul{
+    width:150px;
+    height: 42px;
+    margin: 0 38px 0 770px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.t-b-r {
+    /*width: 400px;*/
+    position: relative;
+}
+.topbar .t-b-r li{
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 40px;
+}
+/*header*/
+.header{
+    width: 1920px;
+    height: 171px;
+    background-color: #F0F3F5;
+}
+.nav{
+    height: 111px;
+}
+
+.nav-l img,.nav-c input {
+    display: inline-block;
+    float: left;
+}
+
+.nav-l img{
+    background: url("../img/lg_movie_a12_2.png") no-repeat left center;
+    width: 174px;
+    height: 49px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+.nav-c input {
+    height: 49px;
+    width: 704px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    margin: 30px 0 32px 63px;
+}
+
+.nav-c .sousuo{
+    background: url("../img/nav_mv_bg_r2_c1.png") no-repeat;
+    background-size: cover;
+    width: 56px;
+    height: 49px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 32px;
+
+}
+.nav-bottom {
+    border-top: 2px solid #E3EBEC;
+}
+.nav-bottom li {
+    display: inline-block;
+    height: 58px;
+    line-height: 58px;
+    margin-right: 52px;
+}
+/*.nav-bottom li>a:hover{*/
+    /*background:blue;*/
+    /*color: #fff;*/
+/*}*/
+.nav-bottom a{
+    color: #666699;
+    font-size: 18px;
+    font-family: "SimSun", "宋体";
+    cursor: pointer;
+}
+.nav-bottom a:hover{
+    color: #fff;
+    background-color:  #27a;
+}
+
+
+
+.t-b-r-t {
+    position: relative;
+}
+.douban {
+    padding-right: 180px;
+    padding-top: 8px;
+}
+
+.douban-B {
+    display: none;
+    width:280px;
+    height:500px;
+    position: absolute;
+    right:100px;
+    top:42px;
+    background: #e6e6e6;
+}
+.douban-B>p:nth-child(1) {
+    display:inline-block ;
+    position: absolute;
+    top:50px;
+    left:90px;
+    height:100px;
+    width:100px;
+    background: url("../img/doubanapp.png") no-repeat;
+}
+.w .tupian {
+    background: url("../img/ad_web.png") no-repeat;
+    background-size: cover;
+    width: 258px;
+    height: 171px;
+    top: 0;
+    right: 0;
+}
+.mainbody-left{
+    width: 887px;
+    height: 700px;
+}
+
+.mainbody-left .left li {
+    float: left;
+    margin-top: 65px;
+    margin-right: 25px;
+    margin-bottom: 23px;
+}
+.mainbody-left .left li:hover {
+    background-color: skyblue;
+
+}
+.mainbody-left .left .zzry{
+    height: 21px;
+    margin-left: 3px;
+}
+.mainbody-left .left .zzry span{
+    font-size: 21px;
+    font-weight: 500;
+    color: #111;
+}
+.mainbody-left .right li {
+    float: left;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #6D98D2;
+    border-radius: 28px;
+    margin-right: 8px;
+    text-align: center;
+    margin-top: 65px;
+}
+.mainbody-left .dianying img {
+    background: url("../img/ckxt.jpg") no-repeat;
+    height: 269px;
+    height: 192px;
+    display: block;
+    border: 1px solid #111111;
+
+}
+.mainbody-left .dianying ul {
+    border-top: 1px solid #EAEAEA;
+}
+.mainbody-left .dianying li{
+    display: inline-block;
+    padding:50px 35px 35px;
+}
+
+.mainbody-left .dianying .xing{
+    background: url("../img/xx_r2_c2.png");
+    width: 113px;
+    height: 16px;
+    display: block;
+}
+.mainbody-left .dianying .ym{
+    cursor: pointer;
+}
+.mainbody-left .dianying .xp:hover{
+    background-color: skyblue;
+
+}
